@@ -1,0 +1,19 @@
+span {
+  font-style: italic;
+  font-size: 0.67em;
+  color: #777777;
+  margin: 0px auto auto auto
+}
+
+.projectlist {
+  border-style: dashed;
+  padding: 6px;
+  margin: 15px 0 0 0;
+}
+
+.container {
+  border-color: #808080;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+}
