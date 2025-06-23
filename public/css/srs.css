@@ -3,11 +3,7 @@ ul {
   list-style-type: upper-roman;
 }
 h2 { margin: 8px 0 8px 12px; }
-span {
-  font-size: 0.67em;
-  color: #777777;
-  margin: 0;
-}
+hr { margin-top: 12px }
 
 .essayname {
   margin: 16px 16px 12px;
@@ -15,7 +11,12 @@ span {
   text-align: center;
 }
 
-hr { margin-top: 12px }
+.note {
+  font-size: 0.67em;
+  color: #777777;
+  margin: 0;
+}
+
 .hardborder {
   margin: 10px auto;
   border-color:white;

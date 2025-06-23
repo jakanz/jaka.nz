@@ -26,11 +26,19 @@ main {
   background-color: #171717;
 }
 
+.inline-note {
+  font-style: italic;
+  font-size: 0.67em;
+  color: #999;
+  margin: 0px auto auto auto
+}
+
 .header-title {
   background-image: -webkit-linear-gradient(left, #e73c7e, #23a6d5);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  display: inline;
 }
 @media (max-width: 540px) {
   .header-title {
@@ -44,15 +52,6 @@ main {
   align-items: center;
   justify-content: space-between;
 }
-.footer { text-align: center }
-
-.inline-note {
-  font-style: italic;
-  font-size: 0.67em;
-  color: #777777;
-  margin: 0px auto auto auto
-}
-
 .nav-list {
   list-style: none;
   display: flex;
@@ -75,6 +74,8 @@ main {
   content: " | ";
   color: #d1d1d1;
 }
+
+.footer { text-align: center }
 
 a:link {
   color: powderblue;
