@@ -1,4 +1,4 @@
-import React from "react" // Necessary for Vite testing
+import React from "react"
 import { createRoot } from "react-dom/client"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -7,7 +7,7 @@ function Header() {
         <>
             <h1 className="header">
                 <div className="header-title">
-                    <img src="/src/pics/sona.png" style={{height:"43px", marginRight:"8px", verticalAlign:"bottom"}} alt="The jakanz persona" />jakanz
+                    <img src="/media/pics/sona.png" style={{height:"43px", marginRight:"8px", verticalAlign:"bottom"}} alt="The jakanz persona" />jakanz
                 </div>
                 <div id="navigation">
                     <nav>
@@ -68,7 +68,7 @@ function Home() {
                 <a href="https://maia.crimew.gay"><img src="https://toxxy.neocities.org/badge/maiacrimewgay.png" alt=" Maia is a cool person" /></a>
                 <a href="https://archive.org/details/@jakanz"><img src="https://cyber.dabamos.de/88x31/preserve.gif" alt="Preserve the web!" /></a>
                 <a href="https://reddit.com/u/jakanz"><img src="https://cyber.dabamos.de/88x31/reddit.gif" alt="Check out my Reddit page" /></a>
-                <a href="https://toxxy.neocities.org"><img src="/src/88x31/toxxy.gif" alt="Toxxy is another cool person, and personal friend of mine" /></a>
+                <a href="https://toxxy.neocities.org"><img src="/media/88x31/toxxy.gif" alt="Toxxy is another cool person, and personal friend of mine" /></a>
                 <a href="/srs/transgenocide"><img src="https://cyber.dabamos.de/88x31/transnow2.gif" alt="Transgender people are experiencing a genocide; no way around it" /></a>
                 <a href="https://en.wikipedia.org/wiki/User:Jakanz"><img src="https://cyber.dabamos.de/88x31/wikipedia2.gif" alt="Check out my Wikipedia page" /></a>
             </div>
@@ -122,13 +122,13 @@ function Leekspin() {
     return (
         <>
             <title>leekspin</title>
-            <link href="/src/goofs/leekspin/leek.png" rel="icon" type="image/icon type" />
+            <link href="/media/goofs/leekspin/leek.png" rel="icon" type="image/icon type" />
             <Header />
             <div style={{textAlign: "center", padding: "20px"}}>
-                <img src="/src/goofs/leekspin/leekspin.gif" />
+                <img src="/media/goofs/leekspin/leekspin.gif" />
                 <p style={{marginBottom: "0"}}>You have witnessed <b id="spins">0</b> spins!</p>
             </div>
-            <script async src="/src/goofs/leekspin/counter.js" />
+            <script async src="/media/goofs/leekspin/counter.js" />
             <Footer />
         </>
     )
@@ -137,17 +137,17 @@ function Trucksex() {
     return (
         <>
             <title>The iconic location of the Two Trucks image</title>
-            <link href="/src/goofs/trucksex/truckicon.png" rel="icon" type="image/icon type" />
+            <link href="/media/goofs/trucksex/truckicon.png" rel="icon" type="image/icon type" />
             <Header />
             <div className="main" style={{textAlign: "center", padding: "20px"}}>
                 <div>
-                    <img src="/src/goofs/trucksex/trucksex.png" style={{position: "absolute", width: "600px"}} id="trucksex" />
-                    <img src="/src/goofs/trucksex/todaysex.png" style={{width: "600px"}} />
+                    <img src="/media/goofs/trucksex/trucksex.png" style={{position: "absolute", width: "600px"}} id="trucksex" />
+                    <img src="/media/goofs/trucksex/todaysex.png" style={{width: "600px"}} />
                 </div>
                 <input id="slider" type="range" min="0" max="250" defaultValue="0" style={{width: "600px", margin: "4px 0 0 0"}} />
                 <p style={{marginBottom: "0"}}><a href="https://goo.gl/maps/DcxJxZMKog1QEhzt5">See the original Google Maps view</a></p>
             </div>
-            <script async src="/src/goofs/trucksex/trucksex.js" />
+            <script async src="/media/goofs/trucksex/trucksex.js" />
             <Footer />
         </>
     )
@@ -187,7 +187,7 @@ function Transgenocide() {
     return (
         <>
             <title>trans rights</title>
-            <link href="/src/pics/heart.png" rel="icon" type="image/png" />
+            <link href="/media/pics/heart.png" rel="icon" type="image/png" />
             <link href="/css/srs.css" rel="stylesheet" type="text/css" />
             <Header />
             <h1 className="essayname">The ten steps of a genocide, and how it applies to <span class="transrights">transgender people</span> in the United States</h1>
@@ -245,7 +245,7 @@ function NotFound() {
     )
 }
 
-function App() {
+export default function App() {
     return (
         <Router>
             <Routes>
@@ -263,5 +263,3 @@ function App() {
         </Router>
     )
 }
-const root = createRoot(document.getElementById("root"))
-root.render(<App />)

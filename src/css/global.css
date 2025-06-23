@@ -22,7 +22,7 @@ abbr {
 }
 
 main {
-  padding: 40px 40px 1px 40px;
+  padding: 25px 40px 1px;
   background-color: #171717;
 }
 
@@ -31,6 +31,11 @@ main {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+@media (max-width: 540px) {
+  .header-title {
+    display: none;
+  }
 }
 
 .header {
