@@ -40,6 +40,11 @@ main {
   -webkit-text-fill-color: transparent;
   display: inline;
 }
+@media (max-width: 450px) {
+  .header-img {
+    display: none;
+  }
+}
 @media (max-width: 540px) {
   .header-title {
     display: none;

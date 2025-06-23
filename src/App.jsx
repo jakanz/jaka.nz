@@ -7,7 +7,7 @@ function Header() {
         <>
             <h1 className="header">
                 <div>
-                    <img src="/media/pics/sona.png" style={{height:"43px", marginRight:"8px", verticalAlign:"bottom"}} alt="The jakanz persona" />
+                    <img src="/media/pics/sona.png" style={{height: "43px", marginRight: "8px", verticalAlign:"bottom"}} alt="The jakanz persona" className="header-img" />
                     <span className="header-title">jakanz</span>
                 </div>
                 <div id="navigation">
@@ -54,7 +54,7 @@ function Home() {
                     <a href="https://github.com/jakanz/Blinmaker-3000"><b>Blinmaker-3000</b></a>, a "<a href="https://youtube.com/@LifeOfBoris">Life of Boris</a>" inspired calculator recreated in C# <span className="inline-note">(view original <a href="https://youtube.com/watch?v=FMIZEfjYmtM">here</a>)</span>
                 </p>
             </div>
-            <p style={{marginBottom: "10px", textAlign: "center"}}>For other projects, like my essays or web projects, check out the directory. <b>Thanks for visiting!</b></p>
+            <p style={{marginBottom: "10px", textAlign: "center"}}>For other projects, like my essays or web projects, check out the <a href="/directory">directory</a>. <b>Thanks for visiting!</b></p>
             <div style={{textAlign: "center"}}>
                 <a href="https://cyber.dabamos.de/88x31"><img src="https://cyber.dabamos.de/88x31/88by31.gif" alt="Find more badges like these!" /></a>
                 <a href="https://youtu.be/4nvjGocdugw"><img src="https://cyber.dabamos.de/88x31/acab.gif" alt="Hakim my beloved" /></a>
