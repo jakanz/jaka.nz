@@ -40,7 +40,7 @@ main {
   -webkit-text-fill-color: transparent;
   display: inline;
 }
-@media (max-width: 450px) {
+@media (max-width: 440px) {
   .header-img {
     display: none;
   }
