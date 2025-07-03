@@ -39,8 +39,6 @@ main {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline;
-  font-weight: bolder;
-  font-size: 2rem;
 }
 @media (max-width: 440px) {
   .header-img {
