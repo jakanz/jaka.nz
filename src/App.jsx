@@ -1,16 +1,19 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import PageWrapper from "./jsx/PageWrapper";
 import Home from "./jsx/Home";
 import Contact from "./jsx/Contact";
 import Directory from "./jsx/Directory";
+
 import HomeGoofs from "./jsx/goofs/HomeGoofs";
 import Leekspin from "./jsx/goofs/Leekspin";
 import Trucksex from "./jsx/goofs/Trucksex";
+
 import HomeSrs from "./jsx/srs/HomeSrs";
 import Netchoice from "./jsx/srs/Netchoice";
 import Transgenocide from "./jsx/srs/Transgenocide";
+
 import NotFound from "./jsx/NotFound";
 
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import PageWrapper from "./jsx/PageWrapper";
 export default function App() {
     return (
         <Router>

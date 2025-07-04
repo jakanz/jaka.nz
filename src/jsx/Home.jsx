@@ -1,7 +1,7 @@
 export default function Home() {
     return (
         <>
-            <link href="/css/index.css" rel="stylesheet" type="text/css" />
+            <div className="bg-red-500 text-white p-8">If you see a red box, Tailwind is working!</div>
             <p>You're likely unfamiliar with who I am or what I do, but I'll do my best to explain who I am and my hobbies throughout this reading. I'll try not to talk too extensively about what is likely uninteresting.<br /></p>
             <p>I'm <b>jakanz</b> <span className="inline-note">(she/her)</span>, an internet microcelebrity only capable of basic tasks. If you're a hardcore Primus or System of a Down fan, you may have been familiar with some concert footage archives I put on my YouTube channel before it was suspended.</p>
             <p>If it isn't obvious enough already, I have a big relationship with internet archivism. I tend to archive old tapes of events like concerts or major tragedies, which includes 9/11. I've made my fair share of relatively important archives of this event, especially of those hard to find anywhere else. I'll most likely put these on archive.org from now on.</p>
@@ -12,8 +12,7 @@ export default function Home() {
                 <p>
                     <a href="https://github.com/jakanz/jakabot"><b>jakabot</b></a>, a discord bot that just does random shit <span className="inline-note">(still in early alpha development, don't expect this to be finished soon)</span><br />
                     <a href="https://github.com/jakanz/roblox-jumper"><b>roblox-jumper</b></a>, an AutoHotkey script to prevent idle kicks on Roblox <span className="inline-note">(no idea if this is ok to use though)</span><br />
-                    <a href="https://github.com/jakanz/exponentiation-calc"><b>exponentiation-calc</b></a>, a calculator designed to find all exponents of a base number<br />
-                    <a href="https://github.com/jakanz/Blinmaker-3000"><b>Blinmaker-3000</b></a>, a "<a href="https://youtube.com/@LifeOfBoris">Life of Boris</a>" inspired calculator recreated in C# <span className="inline-note">(view original <a href="https://youtube.com/watch?v=FMIZEfjYmtM">here</a>)</span>
+                    <a href="https://github.com/jakanz/exponentiation-calc"><b>exponentiation-calc</b></a>, a calculator designed to find all exponents of a base number
                 </p>
             </div>
             <p style={{marginBottom: "10px", textAlign: "center"}}>For other projects, like my essays or web projects, check out the <a href="/directory">directory</a>. <b>Thanks for visiting!</b></p>
@@ -23,7 +22,7 @@ export default function Home() {
                 <img src="https://cyber.dabamos.de/88x31/another.gif" alt="Get me out of here ..." />
                 <img src="https://cyber.dabamos.de/88x31/antifa.gif" alt="Down with fascism" />
                 <img src="https://cyber.dabamos.de/88x31/animegay.gif" alt="I... like girls..." />
-                <img src="https://cyber.dabamos.de/88x31/antinazi.gif" alt="Down with Nazism; long live the immortal science of Marxism" />
+                <img src="https://cyber.dabamos.de/88x31/antinazi.gif" alt="Down with Nazism; long live the immortal science of dialectical materialism" />
                 <a href="https://archlinux.org"><img src="https://maia.crimew.gay/badges/archlinux.gif" alt="i use arch btw" /></a>
                 <a href="https://www.marxists.org"><img src="https://cyber.dabamos.de/88x31/crushit.gif" alt="Read theory!" /></a>
                 <img src="https://cyber.dabamos.de/88x31/fckgoogle.gif" alt="FUCK Google" />
