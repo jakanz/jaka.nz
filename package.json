@@ -16,7 +16,7 @@
   "scripts": {
     "dev": "npm-run-all -p tailwind:watch start",
     "start": "react-scripts start",
-    "build": "npm-run-all tailwind:build react-scripts build",
+    "build": "npm run tailwind:build && npm run react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "tailwind:watch": "tailwindcss -i ./src/index.css -o ./src/tailwind.css --watch",
