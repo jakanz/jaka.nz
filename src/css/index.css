@@ -1,1 +1,42 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    p {
+        @apply my-1.5 mx-auto leading-snug;
+    }
+    body {
+        @apply font-sans bg-body text-white m-0 p-0;
+    }
+    hr {
+        @apply h-[2px] w-[100%] m-0 p-0;
+    }
+    a {
+        @apply text-[lightcoral] transition-colors duration-200;
+    }
+    a:hover {
+        @apply underline text-[#7871AA];
+    }
+}
+
+@layer components {
+    .note {
+        @apply italic text-2xs text-gray-500 font-normal;
+    }
+    .dirheader {
+        @apply text-[2rem] font-bold underline;
+    }
+    .dirlist {
+        @apply text-[1.2rem] list-disc ml-12 mb-3 leading-6;
+    }
+    .gradient {
+        @apply bg-clip-text text-transparent;
+    }
+    .shortruler {
+        @apply my-4 mx-auto w-[75%];
+    }
+    .essayname {
+        @apply font-bold text-center text-[1.5rem] mx-6 mt-2 mb-3;
+    }
+}
