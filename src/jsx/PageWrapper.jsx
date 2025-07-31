@@ -1,10 +1,10 @@
 function Header() {
     return (
         <>
-            <header className="flex items-center h-11 font-bold text-center justify-center sm:justify-between">
-                <div className="hidden sm:flex items-end">
+            <header className="flex items-center h-11 font-bold text-center justify-center xs:justify-between">
+                <div className="hidden xs:flex items-end">
                     <img
-						src="/media/pics/sona.png"
+						src="/media/icons/sona.png"
 						className="h-11"
 						alt="The jakanz persona"
 					/>
@@ -14,9 +14,9 @@ function Header() {
                     <ul className="flex list-none items-center text-[1.5rem]">
                         <li><a href="/">Home</a></li>
                         <li className="mx-2 text-[#d1d1d1]">|</li>
-                        <li><a href="/contact">Contact</a></li>
+                        <li><a href="/dir?list=contacts">Contact</a></li>
                         <li className="mx-2 text-[#d1d1d1]">|</li>
-                        <li><a href="/directory">Directory</a></li>
+                        <li><a href="/dir">Directory</a></li>
                     </ul>
                 </nav>
             </header>
@@ -29,8 +29,8 @@ function Footer() {
     return (
         <>
 			<hr />
-			<p className="mt-4 mb-5 text-center">
-				Website developed with React + Tailwind, no rights reserved. <a href="https://github.com/jakanz/jakanz.github.io">Check out the source code</a>
+			<p className="my-4 text-center">
+				Website developed with React + Tailwind, no rights reserved. <a href="https://github.com/jakanz/jakanz.github.io" target="_blank" rel="noopener noreferrer">Check out the source code</a>
 			</p>
         </>
     )

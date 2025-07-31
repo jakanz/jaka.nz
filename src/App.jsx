@@ -1,34 +1,37 @@
+import PageWrapper from "./jsx/PageWrapper";
 import Home from "./jsx/Home";
-import Contact from "./jsx/Contact";
 import Directory from "./jsx/Directory";
-
-import HomeGoofs from "./jsx/goofs/HomeGoofs";
-import Leekspin from "./jsx/goofs/Leekspin";
-import Trucksex from "./jsx/goofs/Trucksex";
-
-import HomeSrs from "./jsx/srs/HomeSrs";
-import Netchoice from "./jsx/srs/Netchoice";
-import Transgenocide from "./jsx/srs/Transgenocide";
-
 import NotFound from "./jsx/NotFound";
 
+import Narrowlanes from "./jsx/essays/Narrowlanes";
+import Netchoice from "./jsx/essays/Netchoice";
+import Proletariatrealism from "./jsx/essays/Proletariatrealism";
+import Rococoandneoclassicism from "./jsx/essays/Rococoandneoclassicism";
+import Seventiesphotography from "./jsx/essays/Seventiesphotography";
+import Transgenocide from "./jsx/essays/Transgenocide";
+
+import Leekspin from "./jsx/webprojects/Leekspin";
+import Trucksex from "./jsx/webprojects/Trucksex";
+
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import PageWrapper from "./jsx/PageWrapper";
 export default function App() {
     return (
         <Router>
             <PageWrapper>
                 <Routes>
                     <Route path="/" element={<Home />} />
-                    <Route path="/contact" element={<Contact />} />
-                    <Route path="/directory" element={<Directory />} />
-                    <Route path="/goofs" element={<HomeGoofs />} />
-                    <Route path="/goofs/leekspin" element={<Leekspin />} />
-                    <Route path="/goofs/trucksex" element={<Trucksex />} />
-                    <Route path="/srs" element={<HomeSrs />} />
-                    <Route path="/srs/netchoice" element={<Netchoice />} />
-                    <Route path="/srs/transgenocide" element={<Transgenocide />} />
+                    <Route path="/dir" element={<Directory />} />
                     <Route path="*" element={<NotFound />} />
+
+                    <Route path="/essays/narrowlanes" element={<Narrowlanes />} />
+                    <Route path="/essays/netchoice" element={<Netchoice />} />
+                    <Route path="/essays/proletariatrealism" element={<Proletariatrealism />} />
+                    <Route path="/essays/rococoandneoclassicism" element={<Rococoandneoclassicism />} />
+                    <Route path="/essays/seventiesphotography" element={<Seventiesphotography />} />
+                    <Route path="/essays/transgenocide" element={<Transgenocide />} />
+
+                    <Route path="/webprojects/leekspin" element={<Leekspin />} />
+                    <Route path="/webprojects/trucksex" element={<Trucksex />} />
                 </Routes>
             </PageWrapper>
         </Router>

@@ -33,23 +33,23 @@ export default function Trucksex() {
                 rel="icon"
                 type="image/icon type"
             />
-            <div className="flex flex-col items-center py-5">
+            <div className="relative flex flex-col items-center py-5">
                 <div>
                     <img
-                        className="absolute w-[37.5rem]"
+                        className="absolute w-full max-w-[37.5rem]"
                         src="/media/goofs/trucksex/trucksex.png"
                         id="trucksex"
                         alt="If you're seeing this, your browser didn't render this properly - refresh!"
                         ref={trucksexRef}
                     />
                     <img
-                        className="w-[37.5rem]"
+                        className="w-full max-w-[37.5rem]"
                         src="/media/goofs/trucksex/todaysex.png"
                         alt=""
                     />
                 </div>
                 <input
-                    className="w-[42rem] my-2"
+                    className="w-full max-w-[42rem] my-2"
                     id="slider"
                     type="range"
                     min="0"
@@ -57,7 +57,7 @@ export default function Trucksex() {
                     defaultValue="0"
                     ref={sliderRef}
                 />
-                <p className="font-bold text-[1.2rem]">
+                <p className="font-bold text-[1.2rem] text-center">
                     <a
                         href="https://goo.gl/maps/DcxJxZMKog1QEhzt5"
                         target="_blank"

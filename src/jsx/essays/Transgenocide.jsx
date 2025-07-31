@@ -1,7 +1,7 @@
 function GenocideStep({ title, note, children }) {
     return (
         <li>
-            <h2 className="font-bold text-xl ml-2 mb-2 leading-4">{title} <span className="note">/ {note}</span></h2>
+            <h2 className="essaysubheader">{title} <span className="note">/ {note}</span></h2>
             <div>{children}</div>
             <hr className="shortruler" />
         </li>
@@ -70,7 +70,7 @@ export default function Transgenocide() {
                 rel="icon"
                 type="image/png"
             />
-            <h1 className="essayname">The ten steps of a genocide, and how it applies to <span className="bg-trans gradient">transgender people</span> in the United States</h1>
+            <h1 className="essaytitle">The ten steps of a genocide, and how it applies to <span className="bg-trans gradient">transgender people</span> in the United States</h1>
             <ul className="list-[upper-roman]">
                 {steps.map(({ title, note, content }) => (
                     <GenocideStep title={title} note={note}>{content}</GenocideStep>

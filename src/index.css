@@ -6,8 +6,11 @@
     p {
         @apply my-1.5 mx-auto leading-snug;
     }
-    body {
-        @apply font-sans bg-body text-white m-0 p-0;
+    p, span, h1, h2, h3, h4, h5, h6 {
+        @apply antialiased;
+    }
+    html, body {
+        @apply bg-body text-white m-0 p-0;
     }
     hr {
         @apply h-[2px] w-[100%] m-0 p-0;
@@ -36,7 +39,22 @@
     .shortruler {
         @apply my-4 mx-auto w-[75%];
     }
-    .essayname {
-        @apply font-bold text-center text-[1.5rem] mx-6 mt-2 mb-3;
+    .essaytitle {
+        @apply font-bold text-center text-[1.6rem] mx-8 my-4 leading-8;
+    }
+    .essaycontent {
+        @apply indent-8 text-justify my-4;
+    }
+    .essaysubheader {
+        @apply font-bold text-xl indent-6 mb-2 leading-4;
+    }
+    .essayfigure {
+        @apply items-center text-center my-3 indent-0;
+    }
+    .essaycaption {
+        @apply my-2 text-[0.8rem];
+    }
+    .picture {
+        @apply rounded-md shadow-md shadow-white/20 hover:shadow-2xl hover:shadow-white/50 transition-shadow duration-300;
     }
 }
