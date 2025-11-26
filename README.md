@@ -1,4 +1,4 @@
-# jakanz.github.io
+# jaka.nz
 
 This software is licensed via the MIT license, whereas you may recreate, copy, modify, publish, distribute, sublicense, or sell copies of this software under the pretense that the MIT license, which contains copyright under my name, is included in all versions. This means feel free to fork or copy this repository for your own purposes as long as credit is given (via a reproduction of the license).
 

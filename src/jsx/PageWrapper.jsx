@@ -30,7 +30,7 @@ function Footer() {
         <>
 			<hr />
 			<p className="my-4 text-center">
-				Website developed with React + Tailwind, no rights reserved. <a href="https://github.com/jakanz/jakanz.github.io" target="_blank" rel="noopener noreferrer">Check out the source code</a>
+				Website developed with React + Tailwind, no rights reserved. <a href="https://github.com/jakanz/jaka.nz" target="_blank" rel="noopener noreferrer">Check out the source code</a>
 			</p>
         </>
     )
