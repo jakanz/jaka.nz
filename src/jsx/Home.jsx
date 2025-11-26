@@ -30,7 +30,7 @@ export default function Home() {
                 <a href="https://archive.org/details/@jakanz" target="_blank" rel="noopener noreferrer"><img src="https://cyber.dabamos.de/88x31/preserve.gif" alt="" /></a>
                 <a href="https://reddit.com/u/jakanz" target="_blank" rel="noopener noreferrer"><img src="https://cyber.dabamos.de/88x31/reddit.gif" alt="" /></a>
                 <a href="https://toxxy.neocities.org" target="_blank" rel="noopener noreferrer"><img src="https://toxxy.neocities.org/badge/toxxybutton.gif" alt="" /></a>
-                <a href="/srs/transgenocide" target="_blank" rel="noopener noreferrer"><img src="https://cyber.dabamos.de/88x31/transnow2.gif" alt="" /></a>
+                <a href="/essays/transgenocide" target="_blank" rel="noopener noreferrer"><img src="https://cyber.dabamos.de/88x31/transnow2.gif" alt="" /></a>
                 <a href="https://en.wikipedia.org/wiki/User:Jakanz" target="_blank" rel="noopener noreferrer"><img src="https://cyber.dabamos.de/88x31/wikipedia2.gif" alt="" /></a>
             </div>
         </>
