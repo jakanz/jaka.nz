@@ -26,13 +26,7 @@ const directories = {
             { label: "Leekspin", href: "/webprojects/leekspin", note: "(recreation of classic website)" },
             { label: "TRUCKSEX", href: "/webprojects/trucksex", note: "(<a href='https://www.youtube.com/watch?v=WchseC9aKTU' target='_blank' rel='noopener noreferrer'>reference</a> -- see the classic Eddie Murphy truck photo in today's era!)" },
         ],
-    },
-    contacts: {
-        title: "Contact me",
-        items: [
-            { label: "Nothing to be seen here... yet!", href: "" },
-        ],
-    },
+    }
 };
 
 export default function Directory() {

@@ -14,8 +14,6 @@ function Header() {
                     <ul className="flex list-none items-center text-[1.5rem]">
                         <li><a href="/">Home</a></li>
                         <li className="mx-2 text-[#d1d1d1]">|</li>
-                        <li><a href="/dir?list=contacts">Contact</a></li>
-                        <li className="mx-2 text-[#d1d1d1]">|</li>
                         <li><a href="/dir">Directory</a></li>
                     </ul>
                 </nav>

@@ -9,7 +9,6 @@ export default function Home() {
             <p>If you're interested in my other projects, visit my <a href="https://github.com/jakanz">GitHub page</a> or check out these neat projects:</p>
             <div className="bg-[#333] border-[#808080] border-dashed border-4 p-2 mt-3 flex justify-center">
                 <p className="mx-1.5">
-                    <a href="https://github.com/jakanz/jakabot"><b>jakabot</b></a>, a discord bot that just does random shit <span className="note">(still in early alpha development, don't expect this to be finished soon)</span><br />
                     <a href="https://github.com/jakanz/roblox-jumper"><b>roblox-jumper</b></a>, an AutoHotkey script to prevent idle kicks on Roblox <span className="note">(no idea if this is ok to use though)</span><br />
                     <a href="https://github.com/jakanz/exponentiation-calc"><b>exponentiation-calc</b></a>, a calculator designed to find all exponents of a base number
                 </p>

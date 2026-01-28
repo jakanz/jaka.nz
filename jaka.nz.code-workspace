@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"path": "public"
+		},
+		{
+			"path": "src"
+		}
+	],
+	"settings": {
+		"editor.inlineSuggest.edits.allowCodeShifting": "never",
+		"editor.inlineSuggest.edits.renderSideBySide": "never",
+		"editor.inlineSuggest.edits.showLongDistanceHint": false,
+		"editor.inlineSuggest.enabled": false,
+		"chat.disableAIFeatures": true,
+		"editor.autoIndentOnPaste": true,
+		"git.openRepositoryInParentFolders": "always",
+		"files.exclude": {
+			"**/.git": true,
+			"**/.svn": true,
+			"**/.hg": true,
+			"**/CVS": true,
+			"**/.DS_Store": true,
+			"**/.vscode": true,
+			"**/*.o": true,
+			"**/.placeholder": true
+		}
+	}
+}
