@@ -6,7 +6,6 @@ const directories = {
         items: [
             { label: "Essay directory", href: "/dir?list=essays" },
             { label: "Web projects", href: "/dir?list=webprojects" },
-            { label: "Contact me", href: "/dir?list=contacts" },
         ],
     },
     essays: {
